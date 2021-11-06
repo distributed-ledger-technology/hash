@@ -1,5 +1,5 @@
 // for details check https://www.npmjs.com/package/crc-32
-import crc32 from '../mod-crc32.ts'
+import crc32 from 'https://deno.land/x/hash/mod-crc32.ts'
 
 console.log(crc32.str("SheetJS"))
 console.log(crc32.bstr("SheetJS"))
