@@ -1,3 +1,3 @@
 
-import crc32 from "npm:hash.js"
+import crc32 from "npm:crc-32"
 export default crc32
