@@ -2,14 +2,7 @@
 
 This [deno module](https://deno.land/x/hash) represents a collection of hash functions.
 
-## Usage Examples
-
-### SHA 256
-
-```sh 
-deno run https://deno.land/x/hash/usage-examples/sha256.ts
-```
-
+## Usage Example SHA256
 
 ```ts
 import hashJs from 'https://deno.land/x/hash/mod-hashjs.ts'
@@ -17,7 +10,12 @@ import hashJs from 'https://deno.land/x/hash/mod-hashjs.ts'
 console.log(hashJs.sha256().update('Bitcoin').digest('hex'))
 ```
 
-### CRC32
+## Execute Usage Example SHA256
+```sh 
+deno run https://deno.land/x/hash/usage-example-sha256.ts
+```
+
+### Usage Example CRC32
 
 ```ts
 import crc32 from 'https://deno.land/x/hash/mod-crc32.ts'
@@ -27,11 +25,9 @@ console.log(crc32.bstr("SheetJS"))
 console.log(crc32.buf([83, 104, 101, 101, 116, 74, 83]))
 ```
 
-## Details & Updates
-For details you might also check [hash.js](https://www.npmjs.com/package/hash.js).  
-Since the Deno fellows introduced npm compatibility, one can also utilize: 
-```ts
-import hashjs from "npm:hash.js";
+## Execute Usage Example CRC32
+```sh 
+deno run https://deno.land/x/hash/usage-example-crc32.ts
 ```
 
 ## Donations
