@@ -1,6 +1,6 @@
 # Hash
 
-This [deno module](https://deno.land/x/hash) represents a collection of hash functions.
+This 🦕 [module](https://deno.land/x/hash) represents a collection of hash functions.
 
 ## Usage Example SHA256
 
@@ -15,7 +15,7 @@ console.log(hashJs.sha256().update('Bitcoin').digest('hex'))
 deno run https://deno.land/x/hash/usage-example-sha256.ts
 ```
 
-### Usage Example CRC32
+## Usage Example CRC32
 
 ```ts
 import crc32 from 'https://deno.land/x/hash/mod-crc32.ts'
